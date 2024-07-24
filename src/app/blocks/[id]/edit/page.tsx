@@ -1,5 +1,5 @@
 import { updateBlock } from "@/app/actions";
-import { CodeEditor } from "@/components/CodeEditor";
+// import { CodeEditor } from "@/components/CodeEditor";
 import { db } from "@/db";
 
 export default async function EditPage({ params }: any) {
