@@ -28,7 +28,7 @@ export default async function EditPage({ params }: any) {
           <label className="w-12" htmlFor="code">
             Code
           </label>
-          <CodeEditor />
+          {/* <CodeEditor existingCode={block?.code} /> */}
         </div>
         <input type="hidden" name="id" value={block?.id} />
         <button
